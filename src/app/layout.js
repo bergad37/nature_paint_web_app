@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+const montserrat = Montserrat({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const metadata = {
   title: "Nature paint web app",
