@@ -5,12 +5,12 @@ const propTypes = {};
 
 const defaultProps = {};
 
-
-const HelloSection = () => {
+const ProductsList = () => {
     return <div></div>;
 }
 
-HelloSection.propTypes = propTypes;
-HelloSection.defaultProps = defaultProps;
+ProductsList.propTypes = propTypes;
+ProductsList.defaultProps = defaultProps;
 
-export default HelloSection;
+
+export default ProductsList;
