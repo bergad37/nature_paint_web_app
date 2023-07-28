@@ -1,7 +1,12 @@
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 
-const montserrat = Montserrat({ weight: ["400", "700"], subsets: ["latin"] });
+// Add other classes to the 'body' element
+const montserrat = Montserrat({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  className: "flex flex-col min-h-screen bg-orange-100", // Add the classes you want here, separated by spaces
+});
 
 export const metadata = {
   title: "Nature paint web app",

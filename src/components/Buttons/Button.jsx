@@ -3,7 +3,7 @@ import React from "react";
 const Button = ({ children, className, onClick, type, ...rest }) => {
   return (
     <button
-      className={`bg-primaryColor  rounded-md ${className}`}
+      className={` rounded-md ${className}`}
       {...rest}
       onClick={onClick}
       type={type}

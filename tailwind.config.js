@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       colors: {
         primaryColor: "#DD5312",
-        backgroundColor: "#FFFFFF",
+        secondColor: "#FFFFFF",
+
         textColor: "#000000",
         secondTextColor: "#6F8290",
         danger: "#AB2424",
@@ -30,6 +31,12 @@ module.exports = {
       animation: {
         "waving-hand": "wave 2s linear infinite",
       },
+    },
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "1020px",
+      xl: "1440px"
     },
   },
   plugins: [],
