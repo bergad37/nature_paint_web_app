@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <div className="w-screen flex flex-wrap items-center justify-between px-36 py-4 bg-slate-500 ">
+    <div className="w-full flex flex-wrap items-center justify-between px-36 py-4 bg-white ">
       <div className="cursor-pointer">
         <Image src="/NATURE.png" alt="" priority width={100} height={100} />
       </div>

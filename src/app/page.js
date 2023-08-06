@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       {" "}
-      <div className="flex flex-col min-h-screen bg-orange-100 w-max">
+      <div className="overflow-x-hidden flex flex-col min-h-screen bg-orange-100 ">
         <div className="grow">
           <NavContact />
           <NavBar />
