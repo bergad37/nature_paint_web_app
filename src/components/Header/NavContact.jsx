@@ -11,9 +11,9 @@ export default function NavContact() {
       <p className="font-medium text-[15px] text-secondColor">Whatever your surface, we can paint it!</p>
       {/* contact details message */}
       <div className="flex flex-row flex-wrap gap-3 justify-around items-center md:flex-row  md:items-center lg:items-center lg:gap-6">
-        <p className="font-semibold text-[15px] text-secondColor">CALL US +250 789 239 980</p>
+        <p className="font-semibold text-sm text-secondColor">CALL US +250 789 239 980</p>
         {/* contact button */}
-        <Button className="border-2 border-secondColor text-secondColor font-medium rounded-3xl py-1  lg:py-2 px-4 lg:px-6">
+        <Button className="border-2 border-secondColor text-secondColor font-medium rounded-3xl py-1  lg:py-1 px-4 lg:px-5 hover:bg-secondColor hover:text-primaryColor">
           Contact us
         </Button>
       </div>
