@@ -6,7 +6,7 @@ export default function NavContact() {
     "flex md:flex-col items-center md:gap-6 md:px-36 md:py-4";
   return (
     <div
-      className={`w-full flex flex-col-reverse items-start justify-center md:flex-row md:gap-4 lg:flex-row md:items-center lg:items-center  lg:justify-between bg-primaryColor px-7 md:px-7 lg:px-36 py-4 `}
+      className={`w-full flex flex-col-reverse gap-3 items-center justify-start md:flex-row md:gap-4 lg:flex-row md:items-center lg:items-center  lg:justify-between bg-primaryColor px-7 md:px-7 lg:px-36 py-4 `}
     >
       <p className="font-medium text-[15px] text-secondColor">Whatever your surface, we can paint it!</p>
       {/* contact details message */}

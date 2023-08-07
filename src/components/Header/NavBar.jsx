@@ -60,7 +60,7 @@ export default function NavBar() {
           className="w-40 p-2 text-xs text-center uppercase border rounded-lg hover:text-white bg-sThemeColor-accent ease-in-out duration-200"
           href="/services"
         >
-          Request Services
+          Contact us
         </a>
       </nav>
     </header>
